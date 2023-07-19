@@ -8,7 +8,7 @@
 ## Parents
 ***
 
-#### Unterscheidung des Parenttypen
+### Unterscheidung des Parenttypen
 - **Parents**<br>bereits in unserem System als eigener Datensatz angelegte Parents
 - **Gruppen-ID´s**<br>bei einem Produkt im Wert Parent-ID hinterlegte, aber noch nicht exististierende, Parents
 
@@ -16,14 +16,14 @@
 ![Übersicht Gruppen-ID´s](https://data.csv4you.com/media/image/guide/datenpool/parents/datenpool-parents-gruppenids-uebersicht.png ':zoom :size=30%')
 
 
-#### Einen noch nicht exististierende Parent anlegen
+### Einen noch nicht exististierende Parent anlegen
 
 ![Auswahl Gruppen-ID](https://data.csv4you.com/media/image/guide/datenpool/parents/datenpool-parents-gruppenids-auswahl.png ':zoom :size=30%')
 ![Gruppenfunktion 'Parent(s) JETZT anlegen'](https://data.csv4you.com/media/image/guide/datenpool/parents/datenpool-parents-gruppenids-auswahl-gruppenfunktion.png ':zoom :size=30%')
 
 
 
-#### Unterscheidungsmerkmal dem Parent zuweisen
+### Unterscheidungsmerkmal dem Parent zuweisen
 
 Um ein Produkt als Variante darzustellen, muss dem Parent noch das Unterscheidungsmerkmal(Größe,Farbe etc.) zugewiesen werden. Dies können Sie direkt beim Parent oder über die Gruppenfunktion erledigen.
 
