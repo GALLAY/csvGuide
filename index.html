@@ -10,16 +10,32 @@
 </head>
 <body>
   <div data-app id="main">Please wait...</div>
-  <script>
-    window.$docsify = {
+	<script>
+	  window.$docsify = {
 		el: '#main',
+	      auto2top: true,
 		loadSidebar: true,
-        loadNavbar: true,
-    	coverpage: true,
-    	maxLevel: 3,
-    }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+	      loadNavbar: true,
+		mergeNavbar: true,
+	  	coverpage: true,
+	  	maxLevel: 3,
+	      subMaxLevel: 2,
+	      search: {
+	        noData: {
+	          '/en-en/': 'No results!',
+	          '/': 'Keine Ergebnisse!',
+	        },
+	        paths: 'auto',
+	        placeholder: {
+	          '/en-en/': 'Search',
+	          '/': 'Suche',
+	        },
+	        pathNamespaces: ['/en-en'],
+	      },
+	  }
+	</script>
+	<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 </body>
 </html>
