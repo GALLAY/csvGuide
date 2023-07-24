@@ -9,3 +9,8 @@
 	- [Datensicherung](datapool/backup.md)
 	- [Universaldateien](datapool/universal.md)
 - [Export](export/)
+
+- Schnittstellen
+- [Marktplätze](interface/marketplace.md)
+- [Shopsysteme](interface/shops.md)
+- [Bestellungen](interface/order.md)

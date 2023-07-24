@@ -1,4 +1,4 @@
 <!-- _navbar.md -->
 
 * [Deutsch](/)
-* [En](/en-en/)
+* [En](/en/)

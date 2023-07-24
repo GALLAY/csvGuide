@@ -13,24 +13,28 @@
 	<script>
 	  window.$docsify = {
 		el: '#main',
-	      auto2top: true,
+        auto2top: true,
 		loadSidebar: true,
-	      loadNavbar: true,
+        loadNavbar: true,
 		mergeNavbar: true,
-	  	coverpage: true,
+        nameLink: {
+            '/en/': '#/en/',
+            '/': '#/',
+        },
+// 	  	coverpage: true,
 	  	maxLevel: 3,
 	      subMaxLevel: 2,
 	      search: {
 	        noData: {
-	          '/en-en/': 'No results!',
+	          '/en/': 'No results!',
 	          '/': 'Keine Ergebnisse!',
 	        },
 	        paths: 'auto',
 	        placeholder: {
-	          '/en-en/': 'Search',
+	          '/en/': 'Search',
 	          '/': 'Suche',
 	        },
-	        pathNamespaces: ['/en-en'],
+	        pathNamespaces: ['/en'],
 	      },
 	  }
 	</script>

@@ -1,0 +1,16 @@
+- Pages 
+- [Dashboard](en/)
+- [Datapool](en/datapool/)
+	- [Products](en/datapool/product.md)
+	- [Internal categories](en/datapool/categories.md)
+	- [Data import](en/datapool/import.md)
+	- [Import template](en/datapool/import-template.md)
+	- [Cronjobs import](en/datapool/cronjobs.md)
+	- [Backup](en/datapool/backup.md)
+	- [Standard files](en/datapool/universal.md)
+- [Export](en/export/)
+
+- Schnittstellen
+- [Marketplaces](en/interface/marketplace.md)
+- [Shop systems](en/interface/shops.md)
+- [Orders](en/interface/order.md)

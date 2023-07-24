@@ -48,7 +48,7 @@ Einmal angelegte Parents können Sie jederzeit wieder löschen. Es werden dann �
 
 > Nutzen Sie bitte immer die Importfunktion, wenn Sie eine größere Anzahl von Variantenartikeln anlegen möchten.
 
-#### Gruppen-ID´s
+#### Gruppen-IDs
 
 Gruppen-IDs sind die am häufigsten verwendete Form der Abbildung von Variantenartikeln. Gruppen-IDs werden dabei nicht als eigenständige Datensätze gespeichert, sondern es wird nur eine Gruppen-ID in den Varianten hinterlegt.
 
