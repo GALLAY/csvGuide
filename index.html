@@ -12,30 +12,31 @@
   <div data-app id="main">Please wait...</div>
 	<script>
 	  window.$docsify = {
-		el: '#main',
+        el: '#main',
         auto2top: true,
-		loadSidebar: true,
+        loadSidebar: true,
         loadNavbar: true,
-		mergeNavbar: true,
+        mergeNavbar: true,
+        notFoundPage: true,
         nameLink: {
             '/en/': '#/en/',
             '/': '#/',
         },
-// 	  	coverpage: true,
-	  	maxLevel: 3,
-	      subMaxLevel: 2,
-	      search: {
-	        noData: {
-	          '/en/': 'No results!',
-	          '/': 'Keine Ergebnisse!',
-	        },
+        //coverpage: true,
+        maxLevel: 3,
+        subMaxLevel: 2,
+        search: {
+            noData: {
+                '/en/': 'No results!',
+                '/': 'Keine Ergebnisse!',
+            },
 	        paths: 'auto',
 	        placeholder: {
-	          '/en/': 'Search',
-	          '/': 'Suche',
+                '/en/': 'Search',
+                '/': 'Suche',
 	        },
 	        pathNamespaces: ['/en'],
-	      },
+	    },
 	  }
 	</script>
 	<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
