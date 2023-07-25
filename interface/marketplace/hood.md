@@ -1,7 +1,8 @@
 # Hood
 
 
-## Konto verknüpfen
+***
+# Konto verknüpfen
 
 ![Verbindung mit der Hood-API herstellen](https://data.csv4you.com/media/image/guide/interface/hood/hood-api-zugangsdaten-hinterlegen.png ':zoom :size=30%')
 
@@ -10,7 +11,8 @@ Wenn das erfolgreich abgeschlossen wurde, werden Sie automatisch weitergeleitet.
 Nach dem Anlegen können Sie im Menü des Zugangs auf `Informationen` klicken. Werden Ihnen dort Shopdaten angezeigt, wurde Ihr API-Zugang erfolgreich angelegt.
 
 
-## aktuelle Hood-Listings abrufen
+***
+# aktuelle Hood-Listings abrufen
 
 ![Einlesen unter 'Listings->Sonstige'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-listings.png ':zoom :size=30%')
 ![Einlesen unter 'Mein Konto->Grundeinstellungen->API'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-meinkonto.png ':zoom :size=30%')
@@ -30,11 +32,13 @@ Sie müssen also nicht für jede Datenquelle das Zurücklesen durchführen. Dies
 Es werden KEINE Daten in Hood geändert. Danach können Sie erneut zurücklesen.
 
 
-## Kategoriezuordnung
+***
+# Kategoriezuordnung
 
 Eine Übersicht der Einstellungen finden Sie [hier](export/categories).
 
 
-## Preiskalkulation
+***
+# Preiskalkulation
 
 Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).

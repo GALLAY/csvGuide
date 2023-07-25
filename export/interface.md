@@ -1,7 +1,7 @@
 # Exportprofile
 
-
-## Grundeinstellungen
+***
+# Grundeinstellungen
 
 ![Grundeinstellungen des Exportprofiles](https://data.csv4you.com/media/image/guide/export/export-exportprofil-grundeinstellungen.png ':zoom :size=30%')
 
@@ -123,7 +123,8 @@ Diese enthält Rückmeldungen darüber, ob eine Übertragung erfolgreich oder fe
 > Schauen Sie bei Problemen immer zuerst in diese Datei.
 
 
-## Kategorieauswahl
+***
+# Kategorieauswahl
 
 ![Produkte aus welcher Kategorie](https://data.csv4you.com/media/image/guide/export/export-exportprofil-kategorieauswahl.png ':zoom :size=30%')
 
@@ -140,7 +141,8 @@ Sind im Datenpool keine internen Kategorien angelegt, enthalten alle Produkte Ih
 Wollen Sie nur Produkte bestimmter Kategorien exportieren, wählen Sie die benötigten Kategorien hier aus. Haben Sie keine Auswahl gesetzt, werden alle Produkte exportiert, je nach Filtereinstellungen.
 
 
-## Filter
+***
+# Filter
 
 ![Filtereinstellungen](https://data.csv4you.com/media/image/guide/export/export-exportprofil-bilder.png ':zoom :size=30%')
 
@@ -186,7 +188,8 @@ Sie können unterschiedliche Filter nutzen, um Ihre Auswahl einzugrenzen.
 	*Beispiel:*<br />Sie haben vor einer Woche 1000 Datensätze in Ihren Datenpool importiert und heute 1200. Ihre Exportdatei, enthält dann 200 Produkte, wenn der Filter Nur neue Datensätze auf 'ja' gesetzt ist.
 
 
-## Bilder (optional)
+***
+# Bilder (optional)
 
 ![Bildauswahl(optional)](https://data.csv4you.com/media/image/guide/export/export-exportprofil-bilder.png ':zoom :size=30%')
 
@@ -195,7 +198,8 @@ Hier können Sie festlegen, welche Bilder aus dem Datenpool in welcher Reihenfol
 > Keine Auswahl übernimmt die Bilder in der Reihenfolge, wie Sie im Datenpool hinterlegt sind. Die Anzahl der Bilder ist dabei von der jeweiligen Schnittstelle abhängig.
 
 
-## Varianten (optional)
+***
+# Varianten (optional)
 
 ![Einstellungen für Varianten(optional)](https://data.csv4you.com/media/image/guide/export/export-exportprofil-varianten.png ':zoom :size=30%')
 
@@ -206,7 +210,8 @@ Wenn Sie die Option Export mit Parents aktivieren, erfolgt der Export im Normalf
 > Hat ein Parent nur eine Variante, dann wird dieser als Einzelartikel behandelt.
 
 
-## Cronjob
+***
+# Cronjob
 
 ![Cronjob einrichten](https://data.csv4you.com/media/image/guide/export/export-exportprofil-cronjob.png ':zoom :size=30%')
 
@@ -229,7 +234,8 @@ Markieren Sie daher bitte nur die maximal mögliche Anzahl an Cronjobs Ihres Tar
 > Wenn der Cronjob noch läuft, aber der Nächste bereits gestartet werden soll, dann wird dieser nicht ausgeführt.
 
 
-## Sonstiges
+***
+# Sonstiges
 
 ![Sonstige Einstellungen](https://data.csv4you.com/media/image/guide/export/export-exportprofil-sonstiges.png ':zoom :size=30%')
 
@@ -239,7 +245,8 @@ Stellen Sie eventuell auftretende Fragen bitte über unser Forum oder den Ticket
 > Diese Unterseite ist nur in bestimmten Exportprofilen verfügbar.
 
 
-## Eigene Spaltenzuordnung
+***
+# Eigene Spaltenzuordnung
 
 ![Eigene Spaltenzuordnung](https://data.csv4you.com/media/image/guide/export/export-exportprofil-eigene-spaltenzuordnung.png ':zoom :size=30%')
 

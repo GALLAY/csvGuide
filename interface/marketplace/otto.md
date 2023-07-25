@@ -1,6 +1,7 @@
 # OTTO Marketplace
 
-## Konto verknüpfen
+***
+# Konto verknüpfen
 
 ![Verbindung mit der OTTO-API herstellen](https://data.csv4you.com/media/image/guide/interface/otto/otto-api-zugangsdaten-hinterlegen.png ':zoom :size=30%')
 
@@ -9,7 +10,8 @@ Wenn das erfolgreich abgeschlossen wurde, werden Sie automatisch weitergeleitet.
 Nach dem Anlegen können Sie im Menü des Zugangs auf `Informationen` klicken. Werden Ihnen dort Shopdaten angezeigt, wurde Ihr API-Zugang erfolgreich angelegt.
 
 
-## Kategorie zuweisen
+***
+# Kategorie zuweisen
 
 ![Kategorie Übersicht](https://data.csv4you.com/media/image/guide/interface/otto/otto-kategorie-uebersicht.png ':zoom :size=30%')
 ![OTTO Market-Kategorie zuweisen](https://data.csv4you.com/media/image/guide/interface/otto/otto-kategorie-ottokategorie.png ':zoom :size=30%')
@@ -21,7 +23,8 @@ Geben Sie dazu einfach eine Suchbegriff in das Kategoriefeld. Es werden Ihnen so
 > Wir empfehlen die OTTO Market-Kategorie zuerst einer internen Kategorie zuzuweisen. Nur mit einer hinterlegten OTTO Market-Kategorie können Sie Artikelmerkmale zuweisen.
 
 
-## Artikelmerkmale
+***
+# Artikelmerkmale
 
 ![Kategorie Übersicht mit OTTO Market-Kategorie-ID](https://data.csv4you.com/media/image/guide/interface/otto/otto-kategorie-artikelmerkmale-uebersicht.png ':zoom :size=30%')
 ![Artikelmerkmale zuweisen](https://data.csv4you.com/media/image/guide/interface/otto/otto-kategorie-artikelmerkmale-eintragen.png ':zoom :size=30%')
@@ -35,7 +38,8 @@ Sollte ein Artikelmerkmal mehrere Werte zulassen, so trennen Sie diese mit einer
 > Wir empfehlen die Artikelmerkmale zuerst den internen Kategorien zuzuweisen. Eine Zuweisung bei den Artikeln ist nur bei speziellen Merkmalen nötig, welche zum Beispiel nicht in den Produktdaten vorkommen.
 
 
-## bestehende Listings abrufen
+***
+# bestehende Listings abrufen
 
 ![Einlesen unter 'Listings->Sonstige'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-listings.png ':zoom :size=30%')
 ![Einlesen unter 'Mein Konto->Grundeinstellungen->API'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-meinkonto.png ':zoom :size=30%')
@@ -55,12 +59,14 @@ Sie müssen also nicht für jede Datenquelle das Zurücklesen durchführen. Dies
 Es werden KEINE Daten in OTTO geändert. Danach können Sie erneut zurücklesen.
 
 
-## Preiskalkulation
+***
+# Preiskalkulation
 
 Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 
 
-## Statusbericht des letzten Exportes
+***
+# Statusbericht des letzten Exportes
 
 ![Ansicht 1: gesendete Produkte](https://data.csv4you.com/media/image/guide/api/otto/status/otto-export-status.png ':zoom :size=30%')
 ![Ansicht 2: nähere Statusangaben zu einem einzelnen Produkt](https://data.csv4you.com/media/image/guide/api/otto/status/otto-export-status-2.png ':zoom :size=30%')
@@ -76,7 +82,8 @@ Lassen Sie bei der Übertragung zum Beispiel einen Wert weg, indem Sie unter 'ei
 Sie können auch einfach einen Artikelwert umschreiben.
 
 
-## Produkte für den Export sperren
+***
+# Produkte für den Export sperren
 
 ![Produkte für Marktplätze sperren/freischalten](https://data.csv4you.com/media/image/guide/api/otto/product/otto-product-sperren.png ':zoom :size=30%')
 ![Ansicht gesperrte Artikel](https://data.csv4you.com/media/image/guide/api/otto/product/otto-product-sperren-2.png ':zoom :size=30%')

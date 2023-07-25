@@ -1,7 +1,7 @@
 # Allgemeine API-Informationen
 
-
-## aktuelle API-Listings abrufen
+***
+# aktuelle API-Listings abrufen
 
 ![Einlesen unter 'Listings'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-listings.png ':zoom :size=30%')
 ![Einlesen unter 'Mein Konto->Grundeinstellungen'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-meinkonto.png ':zoom :size=30%')
@@ -10,12 +10,12 @@ Um immer einen aktuellen Stand Ihrer Listings zu haben, müssen diese Daten in u
 Es werden immer die API-Listings-ID sowie Preis und Bestand benötigt. Sie können das Zurücklesen manuell durchführen oder mit einem Cronjob erledigen lassen.
 
 Ein Zurücklesen auf der Seite `Listings` schreibt nur die Daten für die gerade benutzte Datenquelle.
-Es werden trotzdem im Hintergrund ALLE Listings  zurückgegeben.
+Es werden trotzdem im Hintergrund ALLE Listings zurückgegeben.
 
 Das Zurücklesen auf der Seite `Mein Konto->Grundeinstellungen` unter der Auswahl `Cronjob: Daten von [APINAME] einlesen`, schreibt die Daten für ALLE Datenquellen.
 Sie müssen also nicht für jede Datenquelle das Zurücklesen durchführen. Dieses ist aber nur möglich, wenn Sie einen Cronjob hierfür eingerichtet haben.
 
-Mit dem Zurücklesen wird auch gewährleistet, das bei einem Update nur die Produkte gesendet werden, welche eine Änderung benötigen.
+> Mit dem Zurücklesen wird auch gewährleistet, das bei einem Update nur die Produkte gesendet werden, welche eine Änderung benötigen.
 
 > Ein Abgleich erfolgt fast immer mit der SKU beim Shop/Marktplatz und der Artikelnummer im CSV4YOU. Bei einigen System kann ein Abgleich nur über die zurückgegebene API-ID erfolgen.
 
@@ -23,18 +23,31 @@ Mit dem Zurücklesen wird auch gewährleistet, das bei einem Update nur die Prod
 Es werden KEINE Daten im Shop/Marktplatz geändert. Danach können Sie erneut zurücklesen.
 
 
-## Kategoriezuordnung
+### Unterscheidung der Listingstypen im Export
+
+- **nur neue Produkte**<br>
+	Es werden alle Produkte übertragen, welche noch nicht im externen System gelistet ist.
+	Sollten Produkte bereits vorhanden sein, aber es wurde nicht zurückgelesen, kann es in einigen externen Systemen zu doppelten Listings kommen.
+
+- **gelistete Produkte**<br>
+    Es werden alle Produkte übertragen, welche bereits im externen System gelistet sind.
+
+***
+# Kategoriezuordnung
 
 Eine Übersicht der Einstellungen finden Sie [hier](export/categories).
 
 Einige Marktplätze benutzen eigene Kategoriezuordnungen, welche Sie über `Datenpool->Interne Kategorien` oder `Datenpool->Produkte` erreichen.
 
-## Preiskalkulation
+
+***
+# Preiskalkulation
 
 Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 
 
-## Exportprofil
+***
+# Exportprofil
 
 Wir empfehlen die nachfolgende Exportprofile einzurichten.
 Allgemeine Informationen zu den verschiedenen Funktionen der Exportprofile, finden Sie [hier](export/interface).
@@ -53,4 +66,18 @@ Sie können dafür auch einen Cronjob benutzen, welchen Sie unter den jeweilgen 
 
 ### Bestandsänderung
 
+Richten Sie ein weiteres Exportprofil zum Bestandsabgleich mit nachfolgenden Einstellungen ein:
+
+**Was möchten Sie zu xxxxx übertragen?**
+- 1. Auswahl 'Bestand'
+- 2. Auswahl 'Gelistete Produkte'
+
 ### Preisänderung
+
+Sie können optional ein weiteres Exportprofil für den Preisabgleich mit nachfolgenden Einstellungen einrichten:
+
+**Was möchten Sie zu xxxxx übertragen?**
+- 1. Auswahl 'Preis'
+- 2. Auswahl 'Gelistete Produkte'
+
+> Ein Preisupdate steht nicht bei allen API-Schnittstellen zur Verfügung

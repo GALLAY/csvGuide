@@ -39,5 +39,5 @@ Als Basis für die Berechnung Ihrer Preise im jeweiligen Exportprofil werden sta
 #### Die Spalte Extra (Sonderpreis) hat eine besondere Bedeutung
 
 Einträge in dieser Spalte können für Sonderpreise, reduzierte Preise, Aktionspreise u.ä. verwendet werden. Speichern Sie dort z.B. -10% wird der kalkulierte Preis abzüglich 10% berechnet.
-Alle Werte sind dann über den Platzhalter Sonderpreis `[price_extra]` - verfügbar. Sie lassen sich im Reiter eigene Spaltenzuordung zuweisen und in Ihrem Exportprofil übernehmen.
+Alle Werte sind dann über den Platzhalter Sonderpreis `[price_extra]` verfügbar. Sie lassen sich im Reiter eigene Spaltenzuordung zuweisen und in Ihrem Exportprofil übernehmen.
 In einigen Schnittstellen erfolgt die Zuordnung des Platzhalters Sonderpreis automatisch.

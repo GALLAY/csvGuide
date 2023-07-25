@@ -1,13 +1,15 @@
 # eBay
 
-## Konto verknüpfen
+***
+# Konto verknüpfen
 
 ![Verbindung mit eBay herstellen](https://data.csv4you.com/media/image/guide/meinkonto/grundeinstellungen/meinkonto-grundeinstellungen-ebay-verbinden.png ':zoom :size=30%')
 
 Die Einrichtung der eBay-Verbindung ist notwendig, um Daten zwischen eBay und CSV4YOU austauschen zu können. Dabei wird eine sichere OAUTH-Verbindung erstellt, welche bei Erfolg einen gültigen TOKEN zurück gibt.
 
 
-## Kategorie und Artikelmerkmale
+***
+# Kategorie und Artikelmerkmale
 
 ### eBay Kategorie zuweisen
 
@@ -64,8 +66,8 @@ Sie können jederzeit manuell Einträge beim Bearbeiten der Exportdatei hinzufü
 	'category' oder 'product', abhängig von der Art des Eintrages
 
 
-
-## aktuelle eBay-Listings abrufen
+***
+# aktuelle eBay-Listings abrufen
 
 ![Einlesen unter 'Listings->eBay'](https://data.csv4you.com/media/image/guide/ebay/ebay-zuruecklesen-listings.png ':zoom :size=30%')
 ![Einlesen unter 'Mein Konto->Grundeinstellungen->eBay'](https://data.csv4you.com/media/image/guide/ebay/ebay-zuruecklesen-meinkonto.png ':zoom :size=30%')
@@ -98,7 +100,8 @@ Es werden KEINE Daten bei eBay geändert. Danach können Sie erneut zurücklesen
 	Wenn Sie Produkte neu an eBay übertragen haben, können Sie diese damit zurücklesen. Diese Auswahl steht Ihnen nur unter `Listings->eBay` zur Verfügung.
 
 
-## Produkte an eBay übermitteln - Export
+***
+# Produkte an eBay übermitteln - Export
 
 Dieser Abschnitt betrifft spezielle Einstellungen für eBay im Bereich [Sonstiges](http://guide.csv4you.com/#/export/interface?id=sonstiges) des Exportprofiles.
 
@@ -138,12 +141,14 @@ Sie müssen zuerst einen eBay-Marktplatz auswählen, in den Sie Ihre Produkte ei
 > Preiskalkulation und Produkttemplate, wenn benötigt, sollten auf der Seite Grundeinstellungen bereits ausgewählt sein. eBay-Kategoriezuordnung und Zuweisung der passenden Artikelmerkmale haben Sie auch bereits durchgeführt.
 
 
-## Preiskalkulation
+***
+# Preiskalkulation
 
 Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 
 
-## Produkte für den Export sperren
+***
+# Produkte für den Export sperren
 
 ![Produkte für Marktplätze sperren/freischalten](https://data.csv4you.com/media/image/guide/ebay/product/ebay-product-sperren.png ':zoom :size=30%')
 ![Ansicht gesperrte Artikel](https://data.csv4you.com/media/image/guide/ebay/product/ebay-product-sperren-2.png ':zoom :size=30%')
