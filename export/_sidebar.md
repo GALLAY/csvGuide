@@ -14,3 +14,6 @@
 - [Marktplätze](interface/marketplace.md)
 - [Shopsysteme](interface/shops.md)
 - [Bestellungen](interface/order.md)
+
+- Allgemeines
+- [API](api/)

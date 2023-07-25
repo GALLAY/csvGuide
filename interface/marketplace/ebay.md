@@ -100,6 +100,9 @@ Es werden KEINE Daten bei eBay geändert. Danach können Sie erneut zurücklesen
 
 ## Produkte an eBay übermitteln - Export
 
+Dieser Abschnitt betrifft spezielle Einstellungen für eBay im Bereich [Sonstiges](http://guide.csv4you.com/#/export/interface?id=sonstiges) des Exportprofiles.
+
+
 ### eBay-Marktplatz auswählen
 
 ![eBay-Marktplatz auswählen](https://data.csv4you.com/media/image/guide/ebay/exportprofil/ebay-exportprofil-einstellungen.png ':zoom :size=30%')
@@ -108,9 +111,6 @@ Sie müssen zuerst einen eBay-Marktplatz auswählen, in den Sie Ihre Produkte ei
 
 
 ### Einstellungen vornehmen
-
-Dieser Abschnitt betrifft spezielle Einstellungen für eBay im Bereich [Sonstiges](http://guide.csv4you.com/#/export/interface?id=sonstiges) des Exportprofiles.
-
 
 ![eBay-Marktplatz auswählen](https://data.csv4you.com/media/image/guide/ebay/exportprofil/ebay-exportprofil-einstellungen-2.png ':zoom :size=30%')
 
@@ -136,6 +136,11 @@ Dieser Abschnitt betrifft spezielle Einstellungen für eBay im Bereich [Sonstige
 	Diese werden zuerst in Ihrem eBay-Konto gespeichert und können im Anschluss hier, mit einem Klick auf die Lupe, ausgewählt werden.
 
 > Preiskalkulation und Produkttemplate, wenn benötigt, sollten auf der Seite Grundeinstellungen bereits ausgewählt sein. eBay-Kategoriezuordnung und Zuweisung der passenden Artikelmerkmale haben Sie auch bereits durchgeführt.
+
+
+## Preiskalkulation
+
+Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 
 
 ## Produkte für den Export sperren

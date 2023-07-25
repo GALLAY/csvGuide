@@ -5,7 +5,6 @@ Vorhandene Produktdaten im Datenpool sind Voraussetzung um eine CSV- oder API-Sc
 
 Wurden bereits Datensätze importiert bzw. angelegt, sehen Sie hier eine Auflistung Ihrer Produkte. Verschiedene Sortierungen können Sie über die kleine Schaltfläche mit den beiden Pfeilen (aufsteigend/absteigend) rechts neben der Suche vornehmen.
 
-> Die Zuordnung der Produkte zu internen Kategorien ist eine wichtige Voraussetzung für den Export Ihrer Daten inkl. Shopkategorien im Bereich Export.
 
 ***
 # Produkte
@@ -48,7 +47,7 @@ Einmal angelegte Parents können Sie jederzeit wieder löschen. Es werden dann �
 
 > Nutzen Sie bitte immer die Importfunktion, wenn Sie eine größere Anzahl von Variantenartikeln anlegen möchten.
 
-#### Gruppen-IDs
+#### Gruppen-ID´s
 
 Gruppen-IDs sind die am häufigsten verwendete Form der Abbildung von Variantenartikeln. Gruppen-IDs werden dabei nicht als eigenständige Datensätze gespeichert, sondern es wird nur eine Gruppen-ID in den Varianten hinterlegt.
 
