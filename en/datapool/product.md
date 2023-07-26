@@ -113,7 +113,7 @@ Currently, this must be done for all parents. If part numbers change or are adde
 you must also adjust the respective parents (if necessary).
 
 ***
-# Suche
+# Search
 
 Enter a search term or use the search as follows:
 
