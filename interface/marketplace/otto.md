@@ -5,8 +5,7 @@
 
 ![Verbindung mit der OTTO-API herstellen](https://data.csv4you.com/media/image/guide/interface/otto/otto-api-zugangsdaten-hinterlegen.png ':zoom :size=30%')
 
-Verbinden Sie mit dem korrekten Shopnamen unter `Mein Konto->Grundeinstellungen->API` Ihren Hood-Shop. Sie werden danach zu Hood weitergeleitet, wo Sie der Verbindung von CSV4YOU und Hood zustimmen müssen.
-Wenn das erfolgreich abgeschlossen wurde, werden Sie automatisch weitergeleitet.
+Verbinden Sie unter `Mein Konto->Grundeinstellungen->API` mit den korrekten Zugangsdaten Ihren OTTO-Shop.
 Nach dem Anlegen können Sie im Menü des Zugangs auf `Informationen` klicken. Werden Ihnen dort Shopdaten angezeigt, wurde Ihr API-Zugang erfolgreich angelegt.
 
 
@@ -41,8 +40,8 @@ Sollte ein Artikelmerkmal mehrere Werte zulassen, so trennen Sie diese mit einer
 ***
 # bestehende Listings abrufen
 
-![Einlesen unter 'Listings->Sonstige'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-listings.png ':zoom :size=30%')
-![Einlesen unter 'Mein Konto->Grundeinstellungen->API'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-meinkonto.png ':zoom :size=30%')
+![Einlesen unter 'Listings->Sonstige'](https://data.csv4you.com/media/image/guide/interface/otto/otto-zuruecklesen-listings.png ':zoom :size=30%')
+![Einlesen unter 'Mein Konto->Grundeinstellungen->API'](https://data.csv4you.com/media/image/guide/interface/otto/otto-zuruecklesen-meinkonto.png ':zoom :size=30%')
 
 Um immer einen aktuellen Stand Ihrer Listings zu haben, müssen diese Daten in unser System zurückgelesen werden. Diese Daten dienen nur zum Vergleichen.
 Es werden immer die OTTO-Listings-ID sowie Preis und Bestand benötigt. Sie können das Zurücklesen manuell durchführen oder mit einem Cronjob erledigen lassen.
@@ -88,4 +87,4 @@ Sie können auch einfach einen Artikelwert umschreiben.
 ![Produkte für Marktplätze sperren/freischalten](https://data.csv4you.com/media/image/guide/api/otto/product/otto-product-sperren.png ':zoom :size=30%')
 ![Ansicht gesperrte Artikel](https://data.csv4you.com/media/image/guide/api/otto/product/otto-product-sperren-2.png ':zoom :size=30%')
 
-Sie können im Abschnitt 'OTTO' der Einstellungen des Produktes angeben, ob ein Produkt auf bestimmten Marktplätzen gesperrt werden soll. Diese Produkte werden dann bei der Übertragung zu OTTO nicht übermittelt.
+Sie können im Abschnitt 'OTTO' der Einstellungen des Produktes angeben, ob ein Produkt für den Export gesperrt werden soll. Diese Produkte werden dann bei der Übertragung zu OTTO nicht übermittelt.

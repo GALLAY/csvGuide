@@ -16,8 +16,8 @@ Nach dem Anlegen können Sie im Menü des Zugangs auf `Informationen` klicken. W
 ***
 # aktuelle Etsy-Listings abrufen
 
-![Einlesen unter 'Listings->eBay'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-listings.png ':zoom :size=30%')
-![Einlesen unter 'Mein Konto->Grundeinstellungen->eBay'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-meinkonto.png ':zoom :size=30%')
+![Einlesen unter 'Listings->Sonstige'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-listings.png ':zoom :size=30%')
+![Einlesen unter 'Mein Konto->Grundeinstellungen->API'](https://data.csv4you.com/media/image/guide/api/api-zuruecklesen-meinkonto.png ':zoom :size=30%')
 
 Um immer einen aktuellen Stand Ihrer Listings zu haben, müssen diese Daten in unser System zurückgelesen werden. Diese Daten dienen nur zum Vergleichen.
 Es werden immer die Etsy-Listings-ID sowie Preis und Bestand benötigt. Sie können das Zurücklesen manuell durchführen oder mit einem Cronjob erledigen lassen.
@@ -28,10 +28,10 @@ Es werden trotzdem im Hintergrund ALLE Listings von Etsy zurückgegeben.
 Das Zurücklesen auf der Seite `Mein Konto->Grundeinstellungen->API` unter der Auswahl `Cronjob: Daten von Etsy einlesen`, schreibt die Daten für ALLE Datenquellen.
 Sie müssen also nicht für jede Datenquelle das Zurücklesen durchführen. Dieses ist aber nur möglich, wenn Sie einen Cronjob hierfür eingerichtet haben.
 
-> Ein Abgleich erfolgt fast immer mit der SKU beim Shop/Marktplatz und der Artikelnummer im CSV4YOU. Bei einigen System kann ein Abgleich nur über die zurückgegebene API-ID erfolgen.
+> Ein Abgleich erfolgt fast immer mit der SKU beim Marktplatz und der Artikelnummer im CSV4YOU. Bei einigen System kann ein Abgleich nur über die zurückgegebene API-ID erfolgen.
 
-> Sollten Sie Listings direkt auf dem Shop/Marktplatz gelöscht haben, empfehlen wir die vorhandenen Zuweisungen in unserem System zu entfernen.
-Es werden KEINE Daten im Shop/Marktplatz geändert. Danach können Sie erneut zurücklesen.
+> Sollten Sie Listings direkt auf dem Marktplatz gelöscht haben, empfehlen wir die vorhandenen Zuweisungen in unserem System zu entfernen.
+Es werden KEINE Daten im Marktplatz geändert. Danach können Sie erneut zurücklesen.
 
 
 ***

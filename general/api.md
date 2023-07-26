@@ -81,3 +81,12 @@ Sie können optional ein weiteres Exportprofil für den Preisabgleich mit nachfo
 - 2. Auswahl 'Gelistete Produkte'
 
 > Ein Preisupdate steht nicht bei allen API-Schnittstellen zur Verfügung
+
+
+***
+# Produkte für den Export sperren
+
+![Produkte für Marktplätze sperren/freischalten](https://data.csv4you.com/media/image/guide/api/api-product-sperren.png ':zoom :size=30%')
+![Ansicht gesperrte Artikel](https://data.csv4you.com/media/image/guide/api/api-product-sperren-2.png ':zoom :size=30%')
+
+Sie können im Abschnitt 'API' der Einstellungen des Produktes angeben, ob ein Produkt für den Export gesperrt werden soll. Dieses Produkte werden dann nicht übermittelt.

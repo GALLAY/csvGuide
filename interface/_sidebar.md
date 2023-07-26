@@ -18,4 +18,6 @@
 - [Bestellungen](interface/order.md)
 
 - Allgemeines
-- [API](api/)
+- [API](general/api.md)
+- [Erweiterte Feldfunktionen](general/function.md)
+- [Platzhalter](general/placeholder.md)
