@@ -42,7 +42,7 @@ Here is an overview of the existing main articles of a variation.
 
 #### Parents
 
-Parents can be stored as independent records in the data pool: Create a new parent.
+Parents can be stored as independent records in the data pool: `Create a new parent`.
 Any products can be associated with such parents as variant items. Once parents are created,
 you can delete them at any time. In this case, only the parent records will be deleted,
 not the products associated with them.
@@ -70,7 +70,7 @@ as independent records; instead, only one group ID is assigned to the variants.
 
 ![Overview group IDs](https://data.csv4you.com/media/image/guide/datenpool/parents/datenpool-parents-gruppenids-uebersicht.png ':zoom :size=30%')
 
-Optional, you can also convert group IDs into parents. Use the group function `Create parent(s) now` for this purpose.
+Optional, you can also convert group IDs into parents. Use the group function `Create Parent(s) NOW` for this purpose.
 
 ![Group IDs selection](https://data.csv4you.com/media/image/guide/datenpool/parents/datenpool-parents-gruppenids-auswahl.png ':zoom :size=30%')
 ![Group function 'Create parents now'](https://data.csv4you.com/media/image/guide/datenpool/parents/datenpool-parents-gruppenids-auswahl-gruppenfunktion.png ':zoom :size=30%')
@@ -79,7 +79,7 @@ Optional, you can also convert group IDs into parents. Use the group function `C
 > **Parent**: P12345<br>
 > **Variant items**: 12345-white, 12345-red, 12345-black, 12345-blue<br>
 > There is one parent and 4 assigned variants. Thus 5 data sets are stored.<br>
-  In the 4 variants, the Parent ID field contains the value 'P12345'.
+  In the 4 variants, the `Parent ID` field contains the value 'P12345'.
 
 > **Example 2** - Import file with parents<br><br>
 > Parents can also be automatically created through the import function in the data pool.
@@ -132,4 +132,4 @@ To do this, simply click on the button `Filter`.
 
 The `Group function` button is used for the bundled editing of several products.
 First select the desired data sets that you want to edit or delete and then click on the `Group function` button.
-Then select a function to be applied to the marked data sets and confirm the action by `Executing` it.
+Then select a function to be applied to the marked data sets and confirm the action by `Run` it.
