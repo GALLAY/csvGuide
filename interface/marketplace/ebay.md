@@ -49,7 +49,7 @@ Sie finden den Menüpunkt 'Import/Export' auf der Seite der Artikelmerkmale. Dor
 	Es werden alle interne Kategorien mit exportiert, welche der selben eBay Kategorie zugeordnet sind.
 
 - **passende Produkte**<br>
-	Es werden alle Produkte mit exportiert, welche der selben eBayKategorie zugeordnet sind.
+	Es werden alle Produkte mit exportiert, welche der selben eBay Kategorie zugeordnet sind.
 
 - **Download als ZIP-Archiv**<br>
 	Export als ZIP-Datei

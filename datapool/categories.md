@@ -18,7 +18,6 @@ Zuweisungen von Produkten zu internen Kategorien lassen sich folgendermaßen vor
 
 Sind in einer Importdatei keine Kategorien enthalten, vergibt unser System eigene Kategorie-IDs. Über die internen Kategorien erfolgt später im Bereich Export die Zuordnung zu den Kategorien Ihrer CSV- oder XML-Schnittstelle (zu den Kategorien Ihres Shops).
 
-
 ***
 # Übersicht Kategorien
 
@@ -35,7 +34,6 @@ Geben Sie einen Suchbegriff ein oder nutzen Sie die Suche wie folgt:
 - **OR**<br>gibt Kategorien zurück, wo mindestens eines der Suchwörter gefunden wird, getrennt durch Leerzeichen. Beispiel: 'OR rot blau'
 
 - **AND**<br>gibt Kategorien zurück, in denen alle Suchwörter gefunden werden, getrennt durch Leerzeichen. Beispiel: 'AND rot blau'
-
 
 ***
 # Filter

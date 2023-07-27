@@ -69,6 +69,11 @@ Es stehen Ihnen dort nur die [erweiteren Feldfunktionen](general/function) zur V
 | Verpackungseinheit (Bsp. 1Stck) | [pieceunit] |
 | Verpackungseinheit (Bsp. Stck) | [unit] |
 
+> Sollten Sie weitere Sprachen benutzen, können Sie durch anhängen eines Unterstrichs mit der passenden SprachID auf diese Werte zugreifen.
+
+**Beispiel**<br>
+Name/Titel aus Sprache 2: `[title_2]`
+
 
 ***
 # Bilder
@@ -136,6 +141,11 @@ Es stehen Ihnen dort nur die [erweiteren Feldfunktionen](general/function) zur V
 ***
 # Freifelder/Variationen
 
+Im Bereich [Mein Konto->Grundeinstellungen->Freifelder/Variationen](account/datasource?id=freifeldervariationen-einrichten) können bis zu 20 individuelle Freifelder definiert werden,
+z.B. für Spalten einer Importdatei, die zu keinem der vorhandenen Feldbezeichner passen.
+Die Zuweisung von Freifeldern erfolgt in den Import- und Exporteinstellungen über die Platzhalter [spec1], [spec2], usw. ... bis [spec20].
+
+
 | Wert | Platzhalter |
 | --- | --- |
 | Freifeld 1 | [spec1] |
@@ -143,3 +153,29 @@ Es stehen Ihnen dort nur die [erweiteren Feldfunktionen](general/function) zur V
 | Freifeld 3 | [spec3] |
 | ... | ... |
 | Freifeld 20 | [spec3] |
+
+
+***
+# eigene Platzhalter
+
+Der Zugriff auf diese erfolgt in nachfolgender Schreibweise:
+	`[own-NAMEDESPLATZHALTERS]`
+
+**Beispiel**<br>
+* Ihr hinterlegter Platzhalter hat den Namen Test. Der Platzhalter heißt dementsprechend: `[own-Test]`
+
+> Eigene Platzhalter sind in allen Datenquellen gültig.
+
+
+***
+# eigene Artikelmerkmale
+
+Der Zugriff auf diese erfolgt in nachfolgender Schreibweise:
+	`[feature-NAMEDESPLATZHALTERS]`
+
+**Beispiel**<br>
+* Ihr hinterlegter Platzhalter hat den Namen Hausnummer. Der Platzhalter heißt dementsprechend: `[feature-hausnummer]`<br>
+Es erfolgt eine Umwandlung in SEO konforme Schreibweise.
+
+> Eigene Artikelmerkmale sind nur in der jeweiligen Datenquelle gültig.
+

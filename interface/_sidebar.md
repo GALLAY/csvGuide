@@ -21,3 +21,8 @@
 - [API](general/api.md)
 - [Erweiterte Feldfunktionen](general/function.md)
 - [Platzhalter](general/placeholder.md)
+
+- Mein Konto
+- [Grundeinstellungen](account/settings.md)
+- [Datenquellen](account/datasource.md)
+- [Abonnements](account/abonnements.md)
