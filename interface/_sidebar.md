@@ -6,7 +6,7 @@
 - [Export](export/)
 
 - Schnittstellen
-- [Marktplätze](interface/)
+- [Marktplätze](interface/marketplace.md)
 	- [Amazon](interface/marketplace/amazon.md)
 	- [eBay](interface/marketplace/ebay.md)
 	- [Etsy](interface/marketplace/etsy.md)
@@ -15,6 +15,8 @@
 	- [OTTO](interface/marketplace/otto.md)
 	- [Kaufland](interface/marketplace/kaufland.md)
 - [Shopsysteme](interface/shops.md)
+	- [Shopify](interface/shops/shopify.md)
+	- [WooCommerce](interface/shops/woocommerce.md)
 - [Bestellungen](interface/order.md)
 
 - Allgemeines
