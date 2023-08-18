@@ -130,15 +130,18 @@ Diese enthält Rückmeldungen darüber, ob eine Übertragung erfolgreich oder fe
 
 ### Kategoriezuordnung
 
-Ist im Exportprofil keine Kategoriezuordnung ausgewählt, übernimmt die Schnittstelle automatisch die internen Kategorien aus der Datenquelle inklusive der darin enthaltenen Produkte.
-Sind im Datenpool keine internen Kategorien angelegt, enthalten alle Produkte Ihrer Schnittstelle keine Kategorien.
+> Eine Kategoriezuordnung ist nur wählbar, wenn im Menü `Export->Kategoriezuordnung` eine Kategoriezuordnung angelegt ist.
 
-> Eine Kategoriezuordnung ist nur wählbar, wenn unter `Export->Kategoriezuordnung` eine Kategoriezuordnung angelegt ist.
+Eine Kategoriezuordung sollte immer dann ausgewählt werden, wenn die Kategorien Ihres Shops z.B. über IDs angesprochen werden.
 
+Ist im Exportprofil keine Kategoriezuordnung ausgewählt, übernimmt die Schnittstelle automatisch die internen Kategorien
+aus der Datenquelle inklusive der darin enthaltenen Produkte. Sind im Datenpool keine internen Kategorien angelegt,
+enthalten alle Produkte Ihrer Schnittstelle keine Kategorien.
 
 ### Produkte aus nachfolgenden Kategorien
 
-Wollen Sie nur Produkte bestimmter Kategorien exportieren, wählen Sie die benötigten Kategorien hier aus. Haben Sie keine Auswahl gesetzt, werden alle Produkte exportiert, je nach Filtereinstellungen.
+Wollen Sie nur Produkte bestimmter Kategorien exportieren, wählen Sie die benötigten Kategorien hier aus. Haben Sie keine Auswahl gesetzt,
+werden alle Produkte exportiert, je nach Filtereinstellungen.
 
 
 ***
