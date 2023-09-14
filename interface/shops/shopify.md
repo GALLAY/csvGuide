@@ -5,9 +5,15 @@
 
 ![Verbindung mit der Shopify-API herstellen](https://data.csv4you.com/media/image/guide/interface/shopify/shopify-api-zugangsdaten-hinterlegen.png ':zoom :size=30%')
 
-Hinterlegen Sie unter 'Mein Konto->Grundeinstellungen->API' die passenden Zugangsdaten für Ihren Shopify-Shop. Diese erhalten Sie aus Ihrem Shopify-Konto.
-Sollten Ihnen die Daten nicht vorliegen, wenden Sie sich bitte an der Shopify-Support.
+Hinterlegen Sie unter 'Mein Konto->Grundeinstellungen->API' die passenden API-Zugangsdaten für Ihren Shopify-Shop. Diese erhalten Sie aus Ihrem Shopify-Konto durch Anlegen einer `Private-APP`.
+Wie Sie eine Private-APP in Ihrem Shopify-Account hinterlegen, erfahren Sie [hier](https://www.shopify.com/partners/blog/17056443-how-to-generate-a-shopify-api-token)
 
+![Shopify - Private Apps verwalten](https://data.csv4you.com/media/image/guide/interface/shopify/shopify-restapi-token-1.jpg ':zoom :size=24%')
+![Shopify - Create Private Apps](https://data.csv4you.com/media/image/guide/interface/shopify/shopify-restapi-token-2.jpg ':zoom :size=24%')
+![Shopify - Create Private Apps - Eingabemaske](https://data.csv4you.com/media/image/guide/interface/shopify/shopify-restapi-token-3.jpg ':zoom :size=24%')
+![Shopify - Private Apps - API-Zugangsdaten - Authentifizierung](https://data.csv4you.com/media/image/guide/interface/shopify/shopify-restapi-token-4.jpg ':zoom :size=24%')
+
+> Sollten Sie Probleme beim Anlegen haben, wenden Sie sich bitte an der Shopify-Support.
 
 ### Folgende Daten werden dazu aus Ihrem Shopify-Account benötigt:
 
@@ -83,5 +89,5 @@ Sie können dafür auch einen Cronjob benutzen, den Sie unter den jeweiligen Ver
 	1. Auswahl 'Bestand'<br>
 	2. Auswahl 'Gelistete Produkte'
 
-Durch das Zurücklesen der Shopify-Daten erkennt unser System, welche Produkte einen Bestandsabgleich benötigen. Diese werden durch dieses Exportprofil in Ihrem WooCommerce-Shop geändert.
+Durch das Zurücklesen der Shopify-Daten erkennt unser System, welche Produkte einen Bestandsabgleich benötigen. Diese werden durch dieses Exportprofil in Ihrem Shopify-Shop geändert.
 

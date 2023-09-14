@@ -3,7 +3,7 @@
 
 ## Hinweise
 
- Die Auswahl der Schnittstelle, des passenden Exportprofiles und der verscheidenen Bereiche des Exportprofiles erfolgt im linken Menü. Einige Einstellungen können sich je Schnittstelle unterscheiden.
+ Die Auswahl der Schnittstelle, des passenden Exportprofiles und der verschiedenen Bereiche des Exportprofiles erfolgt im linken Menü. Einige Einstellungen können sich je Schnittstelle unterscheiden.
 
 > Sie benutzen eine API-Schnittstelle?<br>
 > Nach dem Export einer Produktneuanlage sollten Sie aktuelle Marktplatz-/Shop-Daten in unser System zurücklesen. Dies erfolgt im Bereich Listings und der Auswahl des jeweiligen Marktplatz oder Shops. Sie können dafür auch einen Cronjob benutzen, welchen Sie unter den jeweilgen Verbindungseinstellungen Ihres Systems mit CSV4YOU finden.

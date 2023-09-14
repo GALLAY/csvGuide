@@ -231,7 +231,7 @@ Markieren Sie daher bitte nur die maximal mögliche Anzahl an Cronjobs Ihres Tar
 
 *Die Angaben gelten separat für jedes Exportprofil.
 
-> Cronjobs werden automatisch deaktiviert, falls Sie länger als 3 Monate nicht in Ihrem Account eingeloggt waren.
+> Cronjobs werden automatisch deaktiviert, falls Sie länger als 2 Monate nicht in Ihrem Account eingeloggt waren.
 
 > Cronjobs werden per Zufallsreihenfolge gestartet. Das kann den Zeitpunkt der erfolgreichen Erstellung verzögern.
 > Wenn der Cronjob noch läuft, aber der Nächste bereits gestartet werden soll, dann wird dieser nicht ausgeführt.

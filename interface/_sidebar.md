@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 - Seiten
-- [Dashboard](/)
+- [Dashboard](dashboard/)
 - [Datenpool](datapool/)
 - [Export](export/)
 
@@ -23,6 +23,7 @@
 - [API](general/api.md)
 - [Erweiterte Feldfunktionen](general/function.md)
 - [Platzhalter](general/placeholder.md)
+- [Anbieterdaten](general/anbieterdaten.md)
 
 - Mein Konto
 - [Grundeinstellungen](account/settings.md)

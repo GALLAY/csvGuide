@@ -18,10 +18,10 @@ Hinterlegen Sie hier die Zugriffsdaten für Ihren FTP-Server. Damit können Impo
 > Dieser FTP-Benutzer sollte lediglich Zugriff auf einen ganz bestimmten Unterordner Ihres Servers haben, in den Sie Ihre CSV-Daten übertragen möchten.
 > Geben Sie diesem Benutzer keine administrativen Rechte für außerhalb bzw. oberhalb liegende Verzeichnisse auf Ihrem Webserver.
 
-Sie können in den meisten Fällen auch per WEB-URL auf Ihren FTP-Server zugreifen, weswgen Sie keinen FTP-Server anlegen müssen.
+Sie können in den meisten Fällen auch per WEB-URL auf Ihren FTP-Server zugreifen, weswegen Sie keinen FTP-Server anlegen müssen.
 
 **Format**<br>
-https://FTP-Benutzer:FTP-Passwort@www.meineseite.de/dateiname.csv
+(ftp|sftp|https)://FTP-Benutzer:FTP-Passwort@meineseite.de/dateiname.csv
 
 
 ***
@@ -33,6 +33,8 @@ Hinterlegen Sie unter 'Mein Konto->Grundeinstellungen->API' die passenden Zugang
 
 > Wir greifen mit der API nur auf die hinterlegten Funktionen bei dem jeweiligen Shop oder Marktplatz zu. Eine Änderung an irgendeiner Funktion ist nicht möglich
 
+Weitere Informationen zum Umgang mit einer API bekommen Sie [hier](general/api).
+
 
 ***
 # Amazon
@@ -42,6 +44,8 @@ Hinterlegen Sie unter 'Mein Konto->Grundeinstellungen->API' die passenden Zugang
 Für die Verbindung unseres Systems mit Ihrem Amazon-Account benötigen Sie einen eigenen Entwicklerzugang. Weitere Informationen zur Einrichtung finden Sie hier: https://jesseevers.com/selling-partner-api-access/
 Laut Amazon muss der hinterlegte LWA-Schlüssel alle 180 Tage erneuert werden.
 
+Weitere Informationen zu Amazon bekommen Sie [hier](interface/marketplace/amazon).
+
 
 ***
 # eBay
@@ -49,6 +53,8 @@ Laut Amazon muss der hinterlegte LWA-Schlüssel alle 180 Tage erneuert werden.
 ![Verbindung mit eBay herstellen](https://data.csv4you.com/media/image/guide/meinkonto/grundeinstellungen/meinkonto-grundeinstellungen-ebay-verbinden.png ':zoom :size=30%')
 
 Die Einrichtung der eBay-Verbindung ist notwendig, um Daten zwischen eBay und CSV4YOU austauschen zu können. Dabei wird eine sichere OAUTH-Verbindung erstellt, welche bei Erfolg einen gültigen TOKEN zurück gibt
+
+Weitere Informationen zu eBay bekommen Sie [hier](interface/marketplace/ebay).
 
 
 ***

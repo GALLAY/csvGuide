@@ -1,6 +1,6 @@
 # Cronjobs für den Import
 
-> Cronjobs werden automatisch deaktiviert, falls Sie länger als 3 Monate nicht in Ihrem Account eingeloggt waren.
+> Cronjobs werden automatisch deaktiviert, falls Sie länger als 2 Monate nicht in Ihrem Account eingeloggt waren.
 
 Cronjobs bieten Ihnen die Möglichkeit, unterschiedliche Datenfeeds täglich zu bestimmten Zeiten automatisch in Ihren Datenpool einlesen zu lassen (z.B. aufgrund von Bestandsänderungen).
 Folgende Datentypen können aktuell per Cronjob importiert werden: Produkte, Bestand und Preise.

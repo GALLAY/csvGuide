@@ -1,5 +1,5 @@
 - Seiten
-- [Dashboard](/)
+- [Dashboard](dashboard/)
 - [Datenpool](datapool/)
 	- [Produkte](datapool/product.md)
 	- [Interne Kategorien](datapool/categories.md)
@@ -19,6 +19,7 @@
 - [API](general/api.md)
 - [Erweiterte Feldfunktionen](general/function.md)
 - [Platzhalter](general/placeholder.md)
+- [Anbieterdaten](general/anbieterdaten.md)
 
 - Mein Konto
 - [Grundeinstellungen](account/settings.md)

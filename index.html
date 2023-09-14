@@ -3,11 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
-  <link rel="stylesheet" href="style.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="SHORTCUT ICON" href="/media/favicon.ico" type="image/x-icon" />
+	<link rel="SHORTCUT ICON" href="/media/csvani.gif" type="image/gif" />
+	<link rel="apple-touch-icon" href="/media/apple.png">
 </head>
 <body>
   <div data-app id="main">Please wait...</div>
@@ -23,7 +26,8 @@
             '/en/': '#/en/',
             '/': '#/',
         },
-        //coverpage: true,
+        coverpage: true,
+        coverpage: 'cover.md',
         maxLevel: 3,
         subMaxLevel: 2,
         search: {
@@ -38,6 +42,8 @@
 	        },
 	        pathNamespaces: ['/en'],
 	    },
+        name: "GUIDE - CSV4YOU",
+		logo: 'https://data.csv4you.com/media/csv/logo/csv4you-guide-dokumentation.png',
 	  }
 	</script>
 	<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
