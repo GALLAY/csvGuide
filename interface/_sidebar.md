@@ -15,7 +15,9 @@
 	- [OTTO](interface/marketplace/otto.md)
 	- [Kaufland](interface/marketplace/kaufland.md)
 - [Shopsysteme](interface/shops.md)
+	- [Gambio](interface/shops/gambio.md)
 	- [Shopify](interface/shops/shopify.md)
+	- [Shopware 6](interface/shops/shopware6.md)
 	- [WooCommerce](interface/shops/woocommerce.md)
 - [Bestellungen](interface/order.md)
 

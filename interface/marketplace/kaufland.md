@@ -47,7 +47,7 @@ Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 
 Auf kaufland.de wird zwischen Produktdaten und Angebotsdaten unterschieden. Welche Daten Sie übertragen, wählen Sie im Bereich 'Sonstiges' aus.
 
-> Pflichtangaben: Im Abschnitt 'eigene Spaltenzuordnung' müssen die Felder 'condition' und ('delivery_time' oder 'delivery_time_min + delivery_time_max') ausgefüllt sein. Ohne diese Angaben ist das Einstellen nicht möglich.
+!> Pflichtangaben: Im Abschnitt 'eigene Spaltenzuordnung' müssen die Felder 'condition' und ('delivery_time' oder 'delivery_time_min + delivery_time_max') ausgefüllt sein. Ohne diese Angaben ist das Einstellen nicht möglich.
 
 
 ## Produktdaten
@@ -60,3 +60,5 @@ Wenn ein Produkt noch nicht in der Kaufland-Produktdatenbank vorhanden ist, müs
 
 Jeder Händler hat für ein Produkt Angebotsdaten ("inventory data"), die nur für einen Händler und für ein bestimmtes Produkt gelten. Dazu gehören z.B. Preis, Zustand, Anzahl der beim Händler verfügbaren Einheiten oder Kommentar zum Zustand des Artikels. Bei Änderung der Angebotsdaten müssen die Produktdaten nicht erneut übertragen werden.
 Ist ein Produkt bereits in der Kaufland-Produktdatenbank vorhanden, reicht es aus, nur die Angebotsdaten nach Kaufland zu senden. Schauen Sie nach jedem Senden in den zurückgelieferten Statusbericht. Im Anschluss können Sie die erfolgreich angelegten Produkte in unser System zurücklesen. Damit erfolgt eine Unterscheidung, welche Produkte bereits gelistet sind und welche nicht.
+
+!> Es werden nur Artikel gesendet, welche eine Änderung im Bestand oder Preis benötigen. Wenn Sie alle Produkte senden möchten, aktivieren Sie im Bereich `Sonstiges` die Option `Alle Produkte senden`.

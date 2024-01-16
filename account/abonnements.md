@@ -19,4 +19,4 @@ Wenn Sie keine individuellen Schnittstellen benutzen, können Sie die von uns vo
 
 Nach der Aktivierung wird Ihnen für diese Schnittstelle ein Exportprofil automatisch angelegt.
 
-> **Achtung:** Mit dem Deaktivieren einer Schnittstelle werden auch sämtliche bereits angelegten Profile dieser Schnittstelle in ALLEN Datenquellen gelöscht!
+!> **Achtung:** Mit dem Deaktivieren einer Schnittstelle werden auch sämtliche bereits angelegten Profile dieser Schnittstelle in ALLEN Datenquellen gelöscht!

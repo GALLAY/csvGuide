@@ -5,7 +5,17 @@
 
 ![Verbindung mit der Shopify-API herstellen](https://data.csv4you.com/media/image/guide/interface/shopify/shopify-api-zugangsdaten-hinterlegen.png ':zoom :size=30%')
 
-Hinterlegen Sie unter 'Mein Konto->Grundeinstellungen->API' die passenden API-Zugangsdaten für Ihren Shopify-Shop. Diese erhalten Sie aus Ihrem Shopify-Konto durch Anlegen einer `Private-APP`.
+Hinterlegen Sie unter 'Mein Konto->Grundeinstellungen->API' die passenden API-Zugangsdaten für Ihren Shopify-Shop.
+
+
+### Aktueller Shopify Admin
+
+Informationen zum Anlegen einer `Benutzerdefinierte App` finden Sie [hier](https://help.shopify.com/de/manual/apps/app-types/custom-apps)
+
+
+### Alter Shopify Admin
+
+Diese erhalten Sie aus Ihrem Shopify-Konto durch Anlegen einer `Private-APP`.
 Wie Sie eine Private-APP in Ihrem Shopify-Account hinterlegen, erfahren Sie [hier](https://www.shopify.com/partners/blog/17056443-how-to-generate-a-shopify-api-token)
 
 ![Shopify - Private Apps verwalten](https://data.csv4you.com/media/image/guide/interface/shopify/shopify-restapi-token-1.jpg ':zoom :size=24%')
@@ -13,14 +23,18 @@ Wie Sie eine Private-APP in Ihrem Shopify-Account hinterlegen, erfahren Sie [hie
 ![Shopify - Create Private Apps - Eingabemaske](https://data.csv4you.com/media/image/guide/interface/shopify/shopify-restapi-token-3.jpg ':zoom :size=24%')
 ![Shopify - Private Apps - API-Zugangsdaten - Authentifizierung](https://data.csv4you.com/media/image/guide/interface/shopify/shopify-restapi-token-4.jpg ':zoom :size=24%')
 
+
 > Sollten Sie Probleme beim Anlegen haben, wenden Sie sich bitte an der Shopify-Support.
 
 ### Folgende Daten werden dazu aus Ihrem Shopify-Account benötigt:
 
 - Shop-Url in folgendem Format: https://SHOPNAME.myshopify.com<br>
 	Domain bitte EXAKT so übernehmen und nur SHOPNAME durch Ihren Shop-Namen ersetzen!
+	Diesen finden Sie meistens in der URL Ihres Shopify-Adminzugangs. (admin.shopify.com/store/SHOPNAME)
 
 - API-Schlüssel
+
+- API-Password
 
 - Admin-API-Zugriffstoken
 
@@ -41,7 +55,7 @@ Das Zurücklesen auf der Seite 'Mein Konto->Grundeinstellungen->API' unter der A
 
 > Ein Abgleich erfolgt mit der SKU in Ihrem Shop und der Artikelnummer in CSV4YOU. Ein späterer Abgleich kann nur über die zurückgegebene API-ID erfolgen.
 
-> Sollten Sie Listings direkt im Shopify gelöscht haben, empfehlen wir die vorhandenen Zuweisungen in unserem System zu entfernen. Es werden dabei KEINE Daten im Shopify geändert. Danach können Sie erneut Ihre Shop-Daten zurücklesen.
+!> Sollten Sie Listings direkt im Shopify gelöscht haben, empfehlen wir die vorhandenen Zuweisungen in unserem System zu entfernen. Es werden dabei KEINE Daten im Shopify geändert. Danach können Sie erneut Ihre Shop-Daten zurücklesen.
 
 
 ***

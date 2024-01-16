@@ -140,8 +140,9 @@ enthalten alle Produkte Ihrer Schnittstelle keine Kategorien.
 
 ### Produkte aus nachfolgenden Kategorien
 
-Wollen Sie nur Produkte bestimmter Kategorien exportieren, wählen Sie die benötigten Kategorien hier aus. Haben Sie keine Auswahl gesetzt,
-werden alle Produkte exportiert, je nach Filtereinstellungen.
+Wollen Sie nur Produkte bestimmter Kategorien exportieren, wählen Sie die benötigten Kategorien hier aus.
+
+!> Haben Sie keine Auswahl gesetzt, werden alle Produkte exportiert, je nach Filtereinstellungen.
 
 
 ***

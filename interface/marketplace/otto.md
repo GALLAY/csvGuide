@@ -30,7 +30,7 @@ Geben Sie dazu einfach eine Suchbegriff in das Kategoriefeld. Es werden Ihnen so
 
 Sie müssen zuerst den internen Kategorien Artikelmerkmale zuordnen. Wenn Sie keine internen Kategorien benutzen, können Sie diese auch dem Produkt selbst zuweisen.
 
-> Rote Artikelmerkmale sind Pflichfelder!!
+!> Rote Artikelmerkmale sind Pflichtfelder!!
 
 Sollte ein Artikelmerkmal mehrere Werte zulassen, so trennen Sie diese mit einer Doppel-Pipe(||).
 
@@ -62,6 +62,44 @@ Es werden KEINE Daten in OTTO geändert. Danach können Sie erneut zurücklesen.
 # Preiskalkulation
 
 Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
+
+
+***
+# Export
+
+> Allgemeine Informationen zu den verschiedenen Funktionen der Exportprofile, finden Sie [hier](export/interface).
+
+!> Bestände werden getrennt von den Produktdaten übertragen.
+
+## Exportprofil Neuanlage einrichten
+
+![Exportprofil->Grundeinstellungen](https://data.csv4you.com/media/image/guide/interface/otto/otto-exportprofil-neuanlage-grundeinstellungen.png ':zoom :size=30%')
+![Exportprofil->Sonstiges](https://data.csv4you.com/media/image/guide/interface/otto/otto-exportprofil-neuanlage-sonstiges.png ':zoom :size=30%')
+
+**Richten Sie ein Exportprofil zur Neuanlage mit folgenden Einstellungen ein:**
+
+- Was möchten Sie zu Otto übertragen?<br>
+	1. Auswahl 'Produkte'<br>
+	2. Auswahl 'nur neue Produkte'
+
+Nach dem Export einer Produktneuanlage schauen Sie sich die Ihnen angebotenen Statusberichte an. In diesen finden Sie Informationen, ob die Produkte übertragen und angelegt wurden. Wenn das erledigt ist, sollten Sie Ihre aktuellen Shop-Daten in unser System zurücklesen. Das erfolgt im Bereich Listings und der Auswahl des jeweiligen Shops.
+Sie können dafür auch einen Cronjob benutzen, den Sie unter den jeweiligen Verbindungseinstellungen Ihres Systems mit CSV4YOU finden.
+
+?> **Bilder** müssen eine Auflösung von mindesten 960x480 Pixel aufweisen. Maximale Kantenlänge darf 4500 Pixel nicht überschreiten.
+
+
+## Exportprofil Bestandsupdate einrichten
+
+![Exportprofil->Grundeinstellungen](https://data.csv4you.com/media/image/guide/interface/otto/otto-exportprofil-update-bestand-grundeinstellungen.png ':zoom :size=30%')
+![Exportprofil->Sonstiges](https://data.csv4you.com/media/image/guide/interface/otto/otto-exportprofil-update-bestand-sonstiges.png ':zoom :size=30%')
+
+**Richten Sie ein weiteres Exportprofil zum Bestandsabgleich mit folgenden Einstellungen ein:**
+
+- Was möchten Sie zu Otto übertragen?<br>
+	1. Auswahl 'Bestand'<br>
+	2. Auswahl 'Gelistete Produkte'
+
+Durch das Zurücklesen der Otto-Daten erkennt unser System, welche Produkte einen Bestandsabgleich benötigen. Diese werden durch dieses Exportprofil in Ihrem Otto-Account geändert.
 
 
 ***

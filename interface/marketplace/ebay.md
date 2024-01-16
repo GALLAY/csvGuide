@@ -19,7 +19,7 @@ Die Einrichtung der eBay-Verbindung ist notwendig, um Daten zwischen eBay und CS
 
 Sie müssen zuerst den internen Kategorien eine eBay-Kategorie zuordnen. Wenn Sie keine internen Kategorien benutzen, können Sie diese auch dem Produkt selbst zuweisen.
 
-> Wir empfehlen die eBay-Kategorie-ID zuerst einer internen Kategorie zuzuweisen. Nur mit einer hinterlegten eBay-Kategorie können Sie Artikelmerkmale zuweisen.
+> Wir empfehlen, die eBay-Kategorie-ID zuerst einer internen Kategorie zuzuweisen. Nur mit einer hinterlegten eBay-Kategorie können Sie Artikelmerkmale zuweisen.
 
 
 ### Artikelmerkmale zuweisen
@@ -29,9 +29,9 @@ Sie müssen zuerst den internen Kategorien eine eBay-Kategorie zuordnen. Wenn Si
 
 Sie müssen zuerst den internen Kategorien Artikelmerkmale zuordnen. Wenn Sie keine internen Kategorien benutzen, können Sie diese auch dem Produkt selbst zuweisen.
 
-> Rote Artikelmerkmale sind Pflichfelder!!
+!> Rote Artikelmerkmale sind Pflichtfelder!!
 
-> Wir empfehlen die Artikelmerkmale zuerst den internen Kategorie zuzuweisen. Eine Zuweisung bei den Artikel ist nur bei speziellen Merkmalen nötig, welche zum Beispiel nicht in den Produktdaten vorkommen.
+> Wir empfehlen, die Artikelmerkmale zuerst den internen Kategorie zuzuweisen. Eine Zuweisung bei den Artikel ist nur bei speziellen Merkmalen nötig, welche zum Beispiel nicht in den Produktdaten vorkommen.
 
 > Sollten Sie mit dem CSV-Manager und Variantenartikel arbeiten, benötigen die Parents eigenständige Artikelmerkmale.
 
@@ -146,6 +146,10 @@ Sie müssen zuerst einen eBay-Marktplatz auswählen, in den Sie Ihre Produkte ei
 
 Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 
+***
+# Produkttemplate
+
+Eine Übersicht zur Arbeit mit Produkttemplates finden Sie [hier](export/templates).
 
 ***
 # Produkte für den Export sperren

@@ -14,9 +14,9 @@ Da dieser Bereich sehr viele Informationen beinhaltet, wird er in einem [eigenen
 
 Hinterlegen Sie hier die Zugriffsdaten für Ihren FTP-Server. Damit können Importdaten per FTP-Protokoll automatisch zu bestimmten Zeiten über das Setzen von Cronjobs von diesem Server abgeholt und aktualisiert werden. Zusätzlich lassen sich damit Bilder und Exporte auf Ihren FTP-Server übertragen.
 
-> Legen Sie aus Sicherheitsgründen bitte einen separaten FTP-Benutzer mit eingeschränkten Rechten für CSV4YOU auf Ihrem Server an.
-> Dieser FTP-Benutzer sollte lediglich Zugriff auf einen ganz bestimmten Unterordner Ihres Servers haben, in den Sie Ihre CSV-Daten übertragen möchten.
-> Geben Sie diesem Benutzer keine administrativen Rechte für außerhalb bzw. oberhalb liegende Verzeichnisse auf Ihrem Webserver.
+!> Legen Sie aus Sicherheitsgründen bitte einen separaten FTP-Benutzer mit eingeschränkten Rechten für CSV4YOU auf Ihrem Server an.
+Dieser FTP-Benutzer sollte lediglich Zugriff auf einen ganz bestimmten Unterordner Ihres Servers haben, in den Sie Ihre CSV-Daten übertragen möchten.
+Geben Sie diesem Benutzer keine administrativen Rechte für außerhalb bzw. oberhalb liegende Verzeichnisse auf Ihrem Webserver.
 
 Sie können in den meisten Fällen auch per WEB-URL auf Ihren FTP-Server zugreifen, weswegen Sie keinen FTP-Server anlegen müssen.
 

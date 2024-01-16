@@ -29,7 +29,7 @@ Wählen Sie dazu die passende Kategorie aus dem Kategoriefeld. Speichern Sie die
 
 Sie müssen zuerst den internen Kategorien Artikelmerkmale zuordnen. Wenn Sie keine internen Kategorien benutzen, können Sie diese auch dem Produkt selbst zuweisen.
 
-> Rote Artikelmerkmale sind Pflichfelder!!
+!> Rote Artikelmerkmale sind Pflichtfelder!!
 
 Sollte ein Artikelmerkmal mehrere Werte zulassen, so trennen Sie diese mit einer Doppel-Pipe(||).
 

@@ -5,7 +5,10 @@
 
 ![Verbindung mit Amazon herstellen](https://data.csv4you.com/media/image/guide/meinkonto/grundeinstellungen/meinkonto-grundeinstellungen-amazon-verbinden.png ':zoom :size=30%')
 
-Für die Verbindung unseres Systems mit Ihrem Amazon-Account benötigen Sie einen eigenen Entwicklerzugang. Weitere Informationen zur Einrichtung finden Sie hier: https://jesseevers.com/selling-partner-api-access/
+Für die Verbindung unseres Systems mit Ihrem Amazon-Account, benötigen Sie einen eigenen Entwicklerzugang, welchen Sie im SellerCentral freischalten können. Danach legen Sie sich eine eigene APP an.
+Nach Genehmigung durch Amazon, tragen Sie Ihre SellerID, die LoginWithAmazon-Zugangsdaten sowie einen erstellten Refreshtoken in unser System ein.
+
+!> Laut Amazon muss der hinterlegte LoginWithAmazon(LWA)-Schlüssel alle 180 Tage erneuert werden.
 
 
 ***
@@ -29,7 +32,7 @@ Sie müssen zuerst den internen Kategorien eine Amazon-Kategorie zuordnen. Wenn 
 
 Sie müssen zuerst den internen Kategorien Artikelmerkmale zuordnen. Wenn Sie keine internen Kategorien benutzen, können Sie diese auch dem Produkt selbst zuweisen.
 
-> Rote Artikelmerkmale sind Pflichfelder!!
+!> Rote Artikelmerkmale sind Pflichtfelder!!
 
 > Wir empfehlen die Artikelmerkmale zuerst den internen Kategorie zuzuweisen. Eine Zuweisung bei den Artikel ist nur bei speziellen Merkmalen nötig, welche zum Beispiel nicht in den Produktdaten vorkommen.
 
@@ -111,10 +114,10 @@ Sie müssen zuerst einen Amazon-Marktplatz auswählen, in den Sie Ihre Produkte 
 - **Art der Übertragung**<br>
 	- **Update/PartialUpdate**<br>
         Produktdaten werden übertragen. Artikelmerkmale und Kategoriezuweisungen sind zwingend notwendig.
-	- **EasyProduct **<br>
+	- **EasyProduct**<br>
 		Produkte werden übertragen und setzen sich dabei auf bereits vorhandene Produkte im Amazon.
 		Zuweisung erfolgt standardmäßig über die EAN/ISBN. Es werden keine Artikelmerkmale oder Kategoriezuweisungen für Amazon benötigt.
-	- **Delete **<br>
+	- **Delete**<br>
 		Produkte werden gelöscht
 
 > Preiskalkulation und Produkttemplate, wenn benötigt, sollten auf der Seite Grundeinstellungen bereits ausgewählt sein.

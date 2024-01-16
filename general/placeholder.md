@@ -2,7 +2,7 @@
 
 Sie können diese Platzhalter für Angaben in den Artikelmerkmalen, für die Produkttemplates sowie den Export benutzen.
 
-> Platzhalter müssen immer in eckigen Klammern stehen.
+!> Platzhalter müssen immer in eckigen Klammern stehen.
 
 > Beim Import stehen Ihnen diese Platzhalter nicht zur Verfügung.
 Sie müssen dort immer die Spaltennamen der Importdateien als Platzhalter benutzen.
@@ -164,7 +164,7 @@ Der Zugriff auf diese erfolgt in nachfolgender Schreibweise:
 **Beispiel**<br>
 * Ihr hinterlegter Platzhalter hat den Namen Test. Der Platzhalter heißt dementsprechend: `[own-Test]`
 
-> Eigene Platzhalter sind in allen Datenquellen gültig.
+!> Eigene Platzhalter sind in allen Datenquellen gültig.
 
 
 ***
@@ -177,5 +177,5 @@ Der Zugriff auf diese erfolgt in nachfolgender Schreibweise:
 * Ihr hinterlegter Platzhalter hat den Namen Hausnummer. Der Platzhalter heißt dementsprechend: `[feature-hausnummer]`<br>
 Es erfolgt eine Umwandlung in SEO konforme Schreibweise.
 
-> Eigene Artikelmerkmale sind nur in der jeweiligen Datenquelle gültig.
+!> Eigene Artikelmerkmale sind nur in der jeweiligen Datenquelle gültig.
 

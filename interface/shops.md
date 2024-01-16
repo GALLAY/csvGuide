@@ -9,5 +9,7 @@
 ***
 # Übersicht {docsify-ignore}
 
+- [Gambio](interface/shops/gambio.md)
 - [Shopify](interface/shops/shopify.md)
+- [Shopware 6](interface/shops/shopware6.md)
 - [WooCommerce](interface/shops/woocommerce.md)

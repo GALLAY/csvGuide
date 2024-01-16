@@ -25,7 +25,7 @@ Das Zurücklesen auf der Seite 'Mein Konto->Grundeinstellungen->API' unter der A
 
 > Ein Abgleich erfolgt mit der SKU in Ihrem Shop und der Artikelnummer in CSV4YOU. Ein späterer Abgleich kann nur über die zurückgegebene API-ID erfolgen.
 
-> Sollten Sie Listings direkt im WooCommerce gelöscht haben, empfehlen wir die vorhandenen Zuweisungen in unserem System zu entfernen. Es werden dabei KEINE Daten im WooCommerce geändert. Danach können Sie erneut Ihre Shop-Daten zurücklesen.
+!> Sollten Sie Listings direkt im WooCommerce gelöscht haben, empfehlen wir die vorhandenen Zuweisungen in unserem System zu entfernen. Es werden dabei KEINE Daten im WooCommerce geändert. Danach können Sie erneut Ihre Shop-Daten zurücklesen.
 
 
 ***
