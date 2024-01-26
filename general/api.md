@@ -72,6 +72,8 @@ Richten Sie ein weiteres Exportprofil zum Bestandsabgleich mit nachfolgenden Ein
 - 1. Auswahl 'Bestand'
 - 2. Auswahl 'Gelistete Produkte'
 
+!> Standardmäßig werden nur Artikel übertragen, welche eine Änderung des Bestandes benötigen.
+
 ### Preisänderung
 
 Sie können optional ein weiteres Exportprofil für den Preisabgleich mit nachfolgenden Einstellungen einrichten:
@@ -81,6 +83,8 @@ Sie können optional ein weiteres Exportprofil für den Preisabgleich mit nachfo
 - 2. Auswahl 'Gelistete Produkte'
 
 > Ein Preisupdate steht nicht bei allen API-Schnittstellen zur Verfügung
+
+!> Standardmäßig werden nur Artikel übertragen, welche eine Änderung des Preises benötigen.
 
 
 ***

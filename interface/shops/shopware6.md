@@ -50,34 +50,42 @@ Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 
 > Allgemeine Informationen zu den verschiedenen Funktionen der Exportprofile, finden Sie [hier](export/interface).
 
-## Exportprofil Neuanlage einrichten
+> Es erscheinen unter `Was möchten Sie zu Shopware übertragen?` unterschiedliche Auswahlmöglichkeiten für die Neuanlage und das Update. 
 
-![Exportprofil->Grundeinstellungen](https://data.csv4you.com/media/image/guide/interface/shopware6/shopware6-exportprofil-neuanlage-grundeinstellungen.png ':zoom :size=30%')
-![Exportprofil->Sonstiges](https://data.csv4you.com/media/image/guide/interface/shopware6/shopware6-exportprofil-neuanlage-sonstiges.png ':zoom :size=30%')
+## Exportprofil Neuanlage einrichten
 
 **Richten Sie ein Exportprofil zur Neuanlage mit folgenden Einstellungen ein:**
 
 - Was möchten Sie zu Shopware übertragen?<br>
-	1. Auswahl 'Produkte'<br>
-	2. Auswahl 'nur neue Produkte'
+	1. Auswahl 'nur neue Produkte'<br>
+	2. Auswahl 'Produkte'
 
 Nach dem Export einer Produktneuanlage schauen Sie sich die Ihnen angebotenen Statusberichte an. In diesen finden Sie Informationen, ob die Produkte übertragen und angelegt wurden. Wenn das erledigt ist, sollten Sie Ihre aktuellen Shop-Daten in unser System zurücklesen. Das erfolgt im Bereich Listings und der Auswahl des jeweiligen Shops.
 Sie können dafür auch einen Cronjob benutzen, den Sie unter den jeweiligen Verbindungseinstellungen Ihres Systems mit CSV4YOU finden.
 
+!> Im Bereich 'eigene Spaltenzuordnung' muss die Spalte 'taxId' ausgefüllt werden.
+
 
 ## Exportprofil Bestandsupdate einrichten
-
-![Exportprofil->Grundeinstellungen](https://data.csv4you.com/media/image/guide/interface/shopware6/shopware6-exportprofil-update-bestand-grundeinstellungen.png ':zoom :size=30%')
-![Exportprofil->Sonstiges](https://data.csv4you.com/media/image/guide/interface/shopware6/shopware6-exportprofil-update-bestand-sonstiges.png ':zoom :size=30%')
 
 **Richten Sie ein weiteres Exportprofil zum Bestandsabgleich mit folgenden Einstellungen ein:**
 
 - Was möchten Sie zu Shopware übertragen?<br>
-	1. Auswahl 'Bestand'<br>
-	2. Auswahl 'Gelistete Produkte'
+	1. Auswahl 'Gelistete Produkte'<br>
+	2. Auswahl 'Bestand'
 
 Durch das Zurücklesen der Shopware.6-Daten erkennt unser System, welche Produkte einen Bestandsabgleich benötigen. Diese werden durch dieses Exportprofil in Ihrem Shopware.6-Shop geändert.
 
+
+## Exportprofil für die Bilder einrichten
+
+**Richten Sie ein weiteres Exportprofil zum Bildupload mit folgenden Einstellungen ein:**
+
+- Was möchten Sie zu Shopware übertragen?<br>
+	1. Auswahl 'Gelistete Produkte'<br>
+	2. Auswahl 'Bilder'
+
+!> Bilder können nur für Produkte übertragen werden, die durch das Zurücklesen Ihrer Shopware.6-Daten in CSV4YOU hinterlegt sind.
 
 ***
 # Varianten zu einem Produkt zusammenlegen
@@ -87,7 +95,7 @@ Voraussetzung für das Arbeiten mit Varianten ist die ordentliche Einrichtung al
 
 
 ### Eigenschaften
-Sie benötigen dazu zuallererst die passenden Eigenschaften. Sollten diese in Ihrem Shop noch nicht vorhanden sein, können Sie Eigenschaften mit der Auswahl `Eigenschaften anlegen` unter `Was möchten Sie zu Shopware übertragen?` senden.
+Sie benötigen dafür zuerst die passenden Eigenschaften. Sollten diese in Ihrem Shop noch nicht vorhanden sein, können Sie Eigenschaften mit der Auswahl `Eigenschaften anlegen` unter `Was möchten Sie zu Shopware übertragen?` senden.
 
 
 ### Hauptartikel(Parent)
