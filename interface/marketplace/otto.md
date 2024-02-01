@@ -71,6 +71,13 @@ Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 
 !> Bestände werden getrennt von den Produktdaten übertragen.
 
+### Wichtige Hinweise
+
+- **Bilder** müssen eine Auflösung von mindesten 960x480 Pixel aufweisen. Maximale Kantenlänge darf 4500 Pixel nicht überschreiten.<br>
+- Die Spalte **brandId** unter eigene Spaltenzuordnung muss ausgefüllt sein.<br>
+- Größenangaben sollten immer in Dezimalform übertragen werden. Bsp: statt `40cm` muss es nur `40` lauten.
+
+
 ## Exportprofil Neuanlage einrichten
 
 ![Exportprofil->Grundeinstellungen](https://data.csv4you.com/media/image/guide/interface/otto/otto-exportprofil-neuanlage-grundeinstellungen.png ':zoom :size=30%')
@@ -84,8 +91,6 @@ Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 
 Nach dem Export einer Produktneuanlage schauen Sie sich die Ihnen angebotenen Statusberichte an. In diesen finden Sie Informationen, ob die Produkte übertragen und angelegt wurden. Wenn das erledigt ist, sollten Sie Ihre aktuellen Shop-Daten in unser System zurücklesen. Das erfolgt im Bereich Listings und der Auswahl des jeweiligen Shops.
 Sie können dafür auch einen Cronjob benutzen, den Sie unter den jeweiligen Verbindungseinstellungen Ihres Systems mit CSV4YOU finden.
-
-?> **Bilder** müssen eine Auflösung von mindesten 960x480 Pixel aufweisen. Maximale Kantenlänge darf 4500 Pixel nicht überschreiten.
 
 
 ## Exportprofil Bestandsupdate einrichten

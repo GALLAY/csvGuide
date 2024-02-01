@@ -19,7 +19,7 @@ Die Einrichtung der eBay-Verbindung ist notwendig, um Daten zwischen eBay und CS
 
 Sie müssen zuerst den internen Kategorien eine eBay-Kategorie zuordnen. Wenn Sie keine internen Kategorien benutzen, können Sie diese auch dem Produkt selbst zuweisen.
 
-> Wir empfehlen, die eBay-Kategorie-ID zuerst einer internen Kategorie zuzuweisen. Nur mit einer hinterlegten eBay-Kategorie können Sie Artikelmerkmale zuweisen.
+> Wir empfehlen die eBay-Kategorie-ID zuerst einer internen Kategorie zuzuweisen. Nur mit einer hinterlegten eBay-Kategorie können Sie Artikelmerkmale zuweisen.
 
 
 ### Artikelmerkmale zuweisen
@@ -31,7 +31,7 @@ Sie müssen zuerst den internen Kategorien Artikelmerkmale zuordnen. Wenn Sie ke
 
 !> Rote Artikelmerkmale sind Pflichtfelder!!
 
-> Wir empfehlen, die Artikelmerkmale zuerst den internen Kategorie zuzuweisen. Eine Zuweisung bei den Artikel ist nur bei speziellen Merkmalen nötig, welche zum Beispiel nicht in den Produktdaten vorkommen.
+> Wir empfehlen die Artikelmerkmale zuerst den internen Kategorie zuzuweisen. Eine Zuweisung bei den Artikel ist nur bei speziellen Merkmalen nötig, welche zum Beispiel nicht in den Produktdaten vorkommen.
 
 > Sollten Sie mit dem CSV-Manager und Variantenartikel arbeiten, benötigen die Parents eigenständige Artikelmerkmale.
 
@@ -136,9 +136,12 @@ Sie müssen zuerst einen eBay-Marktplatz auswählen, in den Sie Ihre Produkte ei
 	- **Multi**<br>alle Produktdaten werden gesammelt und am Ende in einem Schritt an eBay übermittelt
 
 - **Rahmenbedingungen für Zahlungen, Rücksendungen, Versand**<br>
-	Diese werden zuerst in Ihrem eBay-Konto gespeichert und können im Anschluss hier, mit einem Klick auf die Lupe, ausgewählt werden.
+    Für eBay sind sogenannte Rahmenbedingungen erforderlich. Diese müssen Sie direkt in Ihrem eBay-Konto anlegen.
+    Im Anschluss daran können die jeweiligen Optionen mit einem Klick auf die Lupe ausgewählt werden.
 
 > Preiskalkulation und Produkttemplate, wenn benötigt, sollten auf der Seite Grundeinstellungen bereits ausgewählt sein. eBay-Kategoriezuordnung und Zuweisung der passenden Artikelmerkmale haben Sie auch bereits durchgeführt.
+
+!> Sie müssen in Ihrem eBay-Konto die Option [Nicht mehr Vorrätig](https://www.ebay.de/help/selling/listings/creating-managing-listings/multiquantity-listings-listings-variations?id=4150&st=3&pos=1&query=Mehrfach-Angebote%20und%20Angebote%20mit%20Varianten&intent=multiple&lucenceai=lucenceai&docId=HELP1059#section5) aktivieren. Artikel mit einem NULL-Bestand können sonst bei eBay nicht aktualisert werden.
 
 
 ***
