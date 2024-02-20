@@ -152,44 +152,61 @@ Wollen Sie nur Produkte bestimmter Kategorien exportieren, wählen Sie die benö
 
 Sie können unterschiedliche Filter nutzen, um Ihre Auswahl einzugrenzen.
 
-- **Filter - Preis**<br>
-	Optionale Vorgaben für das Filtern von Artikeln mit bestimmten Preisen. Als Dezimaltrenner bitte den Punkt verwenden.
-	Es werden immer die Preise aus dem Datenpool zum Auswerten genommen, bevor eine eventuell hinterlegte Preiskalkulation greift.
 
-- **Filter - Bestand**<br>
-	Optionale Vorgaben für das Filtern von Artikeln mit bestimmten Beständen.
+### Filter - Preis
 
-	*Beispiel für Artikel mit einem Bestand von 6:*<br>
-	Sie setzen die Auswahl bei 'größer als' auf 5 und 'kleiner als' auf 7. Damit werden nur Artikel mit einem Bestand von 6 exportiert.
+Optionale Vorgaben für das Filtern von Artikeln mit bestimmten Preisen. Als Dezimaltrenner bitte den Punkt verwenden.
+Es werden immer die Preise aus dem Datenpool zum Auswerten genommen, bevor eine eventuell hinterlegte Preiskalkulation greift.
 
-	> Sollten Sie den 'Filter - Nullbestand' aktiviert haben, werden auch die restlichen Produkte exportiert, welche auf alle Filtereinstellungen passen würden, aber mit einem Bestand von NULL.
 
-- **Filter - Nullbestand**<br>
-	Die Voreinstellung ist ja. Es werden alle Produkte aus der aktiven Datenquelle in der Schnittstelle übernommen (auch die ohne Bestand).
-	Falls Sie nur Artikel mit Bestand (also Bestand > 0) in Ihre Exportdatei aufnehmen möchten, dann setzen Sie den Wert auf nein und speichern die Änderung.
+### Filter - Bestand
 
-	> Dieser Filter sollte bei einem Bestandsupdate immer ausgewählt sein, da sonst Produkte mit einem Bestand von Null nicht im Shopsystem oder Marktplatz geändert werden.
+Optionale Vorgaben für das Filtern von Artikeln mit bestimmten Beständen.
 
-- **Filter - SQL Abfrage**<br>
-	Dieser Filter ist für individuelle Filterangaben geeignet. Wählen Sie eine beliebige Spalte aus der Produkttabelle und tragen dazu einen Wert ein, nach dem gesucht werden soll.
+*Beispiel für Artikel mit einem Bestand von 6:*<br>
+Sie setzen die Auswahl bei `größer als` auf 5 und `kleiner als` auf 7. Damit werden nur Artikel mit einem Bestand von 6 exportiert.
 
-- **Filter - Sonstige**<br>
+> Sollten Sie den `Filter - Nullbestand` aktiviert haben, werden auch die restlichen Produkte exportiert, welche auf alle Filtereinstellungen passen würden, aber mit einem Bestand von NULL.
 
-	- Produkte mit Update<br />Wählen Sie hier die maximale Anzahl 'Tage', innerhalb derer Produkte durch den Import aktualisiert wurden. Der Export beinhaltet dann nur jene Produkte, auf die dieser Filter zutrifft.
 
-- **Filter - Einzelne Datensätze (Komma getrennt)**<br>
-	Angaben in diesem Feld überschreiben alle anderen oben gesetzten Filter. Hier können Sie gezielt ganz bestimmte Artikel-Nummern bzw. Produkt-IDs angeben. Nur diese Datensätze werden dann übernommen.
-	Die Eingabe muss als fortlaufende Liste mit Komma getrennt erfolgen.
+### Filter - Nullbestand
 
-	*Beispiel:*<br>52358,69875,5984-49,a6hz6f,e4888
+Die Voreinstellung ist ja. Es werden alle Produkte aus der aktiven Datenquelle in der Schnittstelle übernommen (auch die ohne Bestand).
+Falls Sie nur Artikel mit Bestand (also Bestand > 0) in Ihre Exportdatei aufnehmen möchten, dann setzen Sie den Wert auf nein und speichern die Änderung.
 
-- **Filter - Ausgeschlossene Datensätze (Komma getrennt)**<br>
-	Angaben in diesem Feld überschreiben alle anderen oben gesetzten Filter. Über diesen Filter lassen sich bestimmte Artikel-Nummern bzw. Produkt-IDs vom Export ausschließen.
+> Dieser Filter sollte bei einem Bestandsupdate immer ausgewählt sein, da sonst Produkte mit einem Bestand von Null nicht im Shopsystem oder Marktplatz geändert werden.
 
-- **Filter - Neuzugänge**<br>
-	Es werden nur die letzten neu importierten Datensätze im Datenpool in die Schnittstelle übernommen.
 
-	*Beispiel:*<br />Sie haben vor einer Woche 1000 Datensätze in Ihren Datenpool importiert und heute 1200. Ihre Exportdatei, enthält dann 200 Produkte, wenn der Filter Nur neue Datensätze auf 'ja' gesetzt ist.
+### Filter - SQL Abfrage
+
+Dieser Filter ist für individuelle Filterangaben geeignet. Wählen Sie eine beliebige Spalte aus der Produkttabelle und tragen dazu einen Wert ein, nach dem gesucht werden soll.
+
+?> Sollten Sie mehrere Werte abfragen wollen, benutzen Sie die Pipe(|) als Trennzeichen
+
+
+### Filter - Sonstige
+
+- Produkte mit Update<br />Wählen Sie hier die maximale Anzahl `Tage`, innerhalb derer Produkte durch den Import aktualisiert wurden. Der Export beinhaltet dann nur jene Produkte, auf die dieser Filter zutrifft.
+
+
+### Filter - Einzelne Datensätze (Komma getrennt)
+
+Angaben in diesem Feld überschreiben alle anderen oben gesetzten Filter. Hier können Sie gezielt ganz bestimmte Artikel-Nummern bzw. Produkt-IDs angeben. Nur diese Datensätze werden dann übernommen.
+Die Eingabe muss als fortlaufende Liste mit Komma getrennt erfolgen.
+
+*Beispiel:*<br>52358,69875,5984-49,a6hz6f,e4888
+
+
+### Filter - Ausgeschlossene Datensätze (Komma getrennt)
+
+Angaben in diesem Feld überschreiben alle anderen oben gesetzten Filter. Über diesen Filter lassen sich bestimmte Artikel-Nummern bzw. Produkt-IDs vom Export ausschließen.
+
+
+### Filter - Neuzugänge
+
+Es werden nur die letzten neu importierten Datensätze im Datenpool in die Schnittstelle übernommen.
+
+*Beispiel:*<br />Sie haben vor einer Woche 1000 Datensätze in Ihren Datenpool importiert und heute 1200. Ihre Exportdatei, enthält dann 200 Produkte, wenn der Filter `Nur neue Datensätze` auf `ja` gesetzt ist.
 
 
 ***

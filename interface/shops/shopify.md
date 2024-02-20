@@ -77,13 +77,22 @@ Eine Übersicht der Einstellungen finden Sie [hier](export/pricecalculation).
 **Richten Sie ein Exportprofil zur Neuanlage mit folgenden Einstellungen ein:**
 
 - Was möchten Sie zu Shopify übertragen?<br>
-	1. Auswahl 'Produkte'<br>
-	2. Auswahl 'nur neue Produkte'
+	1. Auswahl 'nur neue Produkte'<br>
+	2. Auswahl 'Produkte'
 
 Nach dem Export einer Produktneuanlage schauen Sie sich die Ihnen angebotenen Statusberichte an. In diesen finden Sie Informationen, ob die Produkte übertragen und angelegt wurden. Wenn das erledigt ist, sollten Sie Ihre aktuellen Shop-Daten in unser System zurücklesen. Das erfolgt im Bereich Listings und der Auswahl des jeweiligen Shops.
 Sie können dafür auch einen Cronjob benutzen, den Sie unter den jeweiligen Verbindungseinstellungen Ihres Systems mit CSV4YOU finden.
 
 !> Die Neuanlage ist standardmaßig auf 5000 Produkte begrenzt. Sollten Sie bereits mehr als 50000 Artikel in Ihrem Shopify-Shop haben, reduziert sich dieser Wert auf 1000 Produkte. Desweiteren hat Shopify weitere unterschiedliche Limits für Ihre API-Calls.
+
+
+## Exportprofil zur Übertragung der Kategorien/Collection einrichten
+
+**Richten Sie ein weiteres Exportprofil zur Übertragung der Kategorien/Collection mit folgenden Einstellungen ein:**
+
+- Was möchten Sie zu Shopify übertragen?<br>
+	1. Auswahl 'Gelistete Produkte'<br>
+	2. Auswahl 'Collection'
 
 
 ## Exportprofil Bestandsupdate einrichten
@@ -94,8 +103,8 @@ Sie können dafür auch einen Cronjob benutzen, den Sie unter den jeweiligen Ver
 **Richten Sie ein weiteres Exportprofil zum Bestandsabgleich mit folgenden Einstellungen ein:**
 
 - Was möchten Sie zu Shopify übertragen?<br>
-	1. Auswahl 'Bestand'<br>
-	2. Auswahl 'Gelistete Produkte'
+	1. Auswahl 'Gelistete Produkte'<br>
+	2. Auswahl 'Bestand'
 
 Durch das Zurücklesen der Shopify-Daten erkennt unser System, welche Produkte einen Bestandsabgleich benötigen. Diese werden durch das Exportprofil in Ihrem Shopify-Shop geändert.
 
